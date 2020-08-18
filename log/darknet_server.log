@@ -1,0 +1,106 @@
+[2020-08-18 07:32:49,402]	[INFO]	libfilepath: /workspace/xh/libdarknet.so
+[2020-08-18 07:32:49,402]	[INFO]	datafilepath: /workspace/xh/cfg/voc.data
+[2020-08-18 07:32:49,402]	[INFO]	cfgfilepath: /workspace/xh/cfg/yolov3-voc.cfg
+[2020-08-18 07:32:49,402]	[INFO]	weightfilepath: /workspace/xh/backup/yolov3-voc_final.weights
+[2020-08-18 07:32:49,402]	[INFO]	host: 0.0.0.0
+[2020-08-18 07:32:49,402]	[INFO]	port: 8080
+[2020-08-18 07:32:55,587]	[INFO]	server run
+[2020-08-18 07:32:55,605]	[INFO]	Started server process [1063]
+[2020-08-18 07:32:55,605]	[INFO]	Waiting for application startup.
+[2020-08-18 07:32:55,606]	[INFO]	Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2020-08-18 07:33:06,193]	[INFO]	call api of detect
+[2020-08-18 07:33:06,279]	[INFO]	req has key of image
+[2020-08-18 07:33:06,284]	[INFO]	call get_result
+[2020-08-18 07:33:06,376]	[INFO]	call self.yolo.detect
+[2020-08-18 07:33:07,378]	[ERROR]	'tuple' object has no attribute 'get_detect_result'
+[2020-08-18 07:33:07,379]	[INFO]	('172.17.0.1', 50950) - "POST /detect HTTP/1.1" 200
+[2020-08-18 07:33:49,423]	[INFO]	Stopping server process [1063]
+[2020-08-18 07:33:49,524]	[INFO]	Waiting for application shutdown.
+[2020-08-18 07:33:51,489]	[INFO]	libfilepath: /workspace/xh/libdarknet.so
+[2020-08-18 07:33:51,489]	[INFO]	datafilepath: /workspace/xh/cfg/voc.data
+[2020-08-18 07:33:51,489]	[INFO]	cfgfilepath: /workspace/xh/cfg/yolov3-voc.cfg
+[2020-08-18 07:33:51,489]	[INFO]	weightfilepath: /workspace/xh/backup/yolov3-voc_final.weights
+[2020-08-18 07:33:51,489]	[INFO]	host: 0.0.0.0
+[2020-08-18 07:33:51,489]	[INFO]	port: 8080
+[2020-08-18 07:33:57,648]	[INFO]	server run
+[2020-08-18 07:33:57,666]	[INFO]	Started server process [1111]
+[2020-08-18 07:33:57,666]	[INFO]	Waiting for application startup.
+[2020-08-18 07:33:57,667]	[INFO]	Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2020-08-18 07:33:58,042]	[INFO]	call api of detect
+[2020-08-18 07:33:58,129]	[INFO]	req has key of image
+[2020-08-18 07:33:58,134]	[INFO]	call get_result
+[2020-08-18 07:33:58,226]	[INFO]	call self.yolo.detect
+[2020-08-18 07:33:59,182]	[INFO]	('172.17.0.1', 50953) - "POST /detect HTTP/1.1" 200
+[2020-08-18 07:34:06,909]	[INFO]	call api of detect
+[2020-08-18 07:34:06,995]	[INFO]	req has key of image
+[2020-08-18 07:34:07,000]	[INFO]	call get_result
+[2020-08-18 07:34:07,079]	[INFO]	call self.yolo.detect
+[2020-08-18 07:34:08,249]	[INFO]	('172.17.0.1', 50955) - "POST /detect HTTP/1.1" 200
+[2020-08-18 07:34:18,978]	[INFO]	Stopping server process [1111]
+[2020-08-18 07:34:19,079]	[INFO]	Waiting for application shutdown.
+[2020-08-18 07:34:20,835]	[INFO]	libfilepath: /workspace/xh/libdarknet.so
+[2020-08-18 07:34:20,835]	[INFO]	datafilepath: /workspace/xh/cfg/voc.data
+[2020-08-18 07:34:20,835]	[INFO]	cfgfilepath: /workspace/xh/cfg/yolov3-voc.cfg
+[2020-08-18 07:34:20,836]	[INFO]	weightfilepath: /workspace/xh/backup/yolov3-voc_final.weights
+[2020-08-18 07:34:20,836]	[INFO]	host: 0.0.0.0
+[2020-08-18 07:34:20,836]	[INFO]	port: 8080
+[2020-08-18 07:34:26,994]	[INFO]	server run
+[2020-08-18 07:34:27,012]	[INFO]	Started server process [1200]
+[2020-08-18 07:34:27,012]	[INFO]	Waiting for application startup.
+[2020-08-18 07:34:27,013]	[INFO]	Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2020-08-18 07:34:35,144]	[INFO]	call api of detect
+[2020-08-18 07:34:35,229]	[INFO]	req has key of image
+[2020-08-18 07:34:35,234]	[INFO]	call get_result
+[2020-08-18 07:34:35,325]	[INFO]	call self.yolo.detect
+[2020-08-18 07:34:36,322]	[INFO]	{'class_index': 1, 'obj_name': 'person', 'score': 0.5382199287414551, 'bounding_box': {'x_min': 1415.8985557556152, 'y_min': 261.1485195159912, 'width': 58.51709747314453, 'height': 55.34413528442383}}
+[2020-08-18 07:34:36,756]	[INFO]	('172.17.0.1', 50957) - "POST /detect HTTP/1.1" 200
+[2020-08-18 07:39:06,761]	[INFO]	Stopping server process [1200]
+[2020-08-18 07:39:06,862]	[INFO]	Waiting for application shutdown.
+[2020-08-18 07:39:09,843]	[INFO]	libfilepath: /workspace/xh/libdarknet.so
+[2020-08-18 07:39:09,844]	[INFO]	datafilepath: /workspace/xh/cfg/voc.data
+[2020-08-18 07:39:09,844]	[INFO]	cfgfilepath: /workspace/xh/cfg/yolov3-voc.cfg
+[2020-08-18 07:39:09,844]	[INFO]	weightfilepath: /workspace/xh/backup/yolov3-voc_final.weights
+[2020-08-18 07:39:09,844]	[INFO]	host: 0.0.0.0
+[2020-08-18 07:39:09,844]	[INFO]	port: 8080
+[2020-08-18 07:39:16,005]	[INFO]	server run
+[2020-08-18 07:39:16,023]	[INFO]	Started server process [1287]
+[2020-08-18 07:39:16,023]	[INFO]	Waiting for application startup.
+[2020-08-18 07:39:16,024]	[INFO]	Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2020-08-18 07:39:19,768]	[INFO]	call api of detect
+[2020-08-18 07:39:19,853]	[INFO]	req has key of image
+[2020-08-18 07:39:19,858]	[INFO]	call get_result
+[2020-08-18 07:39:19,950]	[INFO]	call self.yolo.detect
+[2020-08-18 07:39:20,958]	[INFO]	=========classify_img===========
+[2020-08-18 07:39:21,015]	[INFO]	[(b'vest', 0.8306997418403625), (b'tumble', 0.8295667767524719), (b'novest', 0.8226108551025391), (b'fire', 0.7991377115249634), (b'hat', 0.7056472301483154), (b'person', 0.6838391423225403)]
+[2020-08-18 07:39:21,016]	[INFO]	{'class_index': 1, 'obj_name': 'person', 'score': 0.5382199287414551, 'bounding_box': {'x_min': 1415.8985557556152, 'y_min': 261.1485195159912, 'width': 58.51709747314453, 'height': 55.34413528442383}}
+[2020-08-18 07:39:21,449]	[INFO]	('172.17.0.1', 50961) - "POST /detect HTTP/1.1" 200
+[2020-08-18 08:36:06,812]	[INFO]	Stopping server process [1287]
+[2020-08-18 08:36:06,912]	[INFO]	Waiting for application shutdown.
+[2020-08-18 08:57:28,877]	[INFO]	libfilepath: /workspace/xh/libdarknet.so
+[2020-08-18 08:57:28,877]	[INFO]	datafilepath: /workspace/xh/cfg/voc.data
+[2020-08-18 08:57:28,877]	[INFO]	cfgfilepath: /workspace/xh/cfg/yolov3-voc.cfg
+[2020-08-18 08:57:28,877]	[INFO]	weightfilepath: /workspace/xh/backup/yolov3-voc_final.weights
+[2020-08-18 08:57:28,877]	[INFO]	host: 0.0.0.0
+[2020-08-18 08:57:28,877]	[INFO]	port: 8080
+[2020-08-18 08:57:35,108]	[INFO]	server run
+[2020-08-18 08:57:35,125]	[INFO]	Started server process [1903]
+[2020-08-18 08:57:35,125]	[INFO]	Waiting for application startup.
+[2020-08-18 08:57:35,126]	[INFO]	Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2020-08-18 08:57:49,341]	[INFO]	call api of detect
+[2020-08-18 08:57:49,427]	[INFO]	req has key of image
+[2020-08-18 08:57:49,432]	[INFO]	call get_result
+[2020-08-18 08:57:49,523]	[INFO]	call self.yolo.detect
+[2020-08-18 08:57:50,512]	[INFO]	=========classify_img===========
+[2020-08-18 08:57:50,570]	[INFO]	[(b'vest', 0.8306997418403625), (b'tumble', 0.8295667767524719), (b'novest', 0.8226108551025391), (b'fire', 0.7991377115249634), (b'hat', 0.7056472301483154), (b'person', 0.6838391423225403)]
+[2020-08-18 08:57:50,570]	[INFO]	{'class_index': 1, 'obj_name': 'person', 'score': 0.5382199287414551, 'bounding_box': {'x_min': 1415.8985557556152, 'y_min': 261.1485195159912, 'width': 58.51709747314453, 'height': 55.34413528442383}}
+[2020-08-18 08:57:50,571]	[INFO]	{'class_index': 3, 'obj_name': 'vest', 'score': 0.10894280672073364, 'bounding_box': {'x_min': 1342.2956008911133, 'y_min': 923.8591613769531, 'width': 170.48374938964844, 'height': 135.86871337890625}}
+[2020-08-18 08:57:50,571]	[INFO]	{'class_index': 1, 'obj_name': 'person', 'score': 0.06335154920816422, 'bounding_box': {'x_min': 1396.9686889648438, 'y_min': 247.8495273590088, 'width': 55.4639892578125, 'height': 48.13914108276367}}
+[2020-08-18 08:57:51,002]	[INFO]	('172.17.0.1', 52116) - "POST /detect HTTP/1.1" 200
+[2020-08-18 09:00:19,550]	[INFO]	call api of detect
+[2020-08-18 09:00:19,637]	[INFO]	req has key of image
+[2020-08-18 09:00:19,641]	[INFO]	call get_result
+[2020-08-18 09:00:19,723]	[INFO]	call self.yolo.detect
+[2020-08-18 09:00:20,530]	[INFO]	=========classify_img===========
+[2020-08-18 09:00:20,587]	[INFO]	[(b'vest', 0.8306997418403625), (b'tumble', 0.8295667767524719), (b'novest', 0.8226108551025391), (b'fire', 0.7991377115249634), (b'hat', 0.7056472301483154), (b'person', 0.6838391423225403)]
+[2020-08-18 09:00:20,587]	[INFO]	{'class_index': 1, 'obj_name': 'person', 'score': 0.5382199287414551, 'bounding_box': {'x_min': 1415.8985557556152, 'y_min': 261.1485195159912, 'width': 58.51709747314453, 'height': 55.34413528442383}}
+[2020-08-18 09:00:21,012]	[INFO]	('172.17.0.1', 52128) - "POST /detect HTTP/1.1" 200

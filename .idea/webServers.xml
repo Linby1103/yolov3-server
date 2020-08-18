@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9095dc85-02d9-43c1-be0c-b05f57d32cae" name="root" url="http://192.168.1.74">
+        <fileTransfer rootFolder="/home/mydata/darknet/python" accessType="SFTP" host="192.168.1.74" port="22" sshConfigId="d2ac35ec-e2cf-4fb9-bc64-76f38676afb7" sshConfig="root@192.168.1.74:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
